@@ -19,6 +19,9 @@ end
    onestudent=Student.find(params[:id])
    render json: onestudent
   end
-
+  
+  def query
+    byebug
+  end
 
 end
